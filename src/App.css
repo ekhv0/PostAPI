@@ -36,3 +36,34 @@
 .load-more button:hover {
   background-color: #0056b3;
 }
+.search-bar {
+  position: sticky;
+  top: 0;
+  background: #f4f4f4;
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 1000; /* Ensure it stays on top */
+}
+
+.search-bar input {
+  width: 100%;
+  max-width: 300px;
+  padding: 8px;
+  margin-right: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.search-bar select {
+  padding: 8px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  background: #fff;
+
+}.post.highlight {
+  background-color: #ffff99;
+}
+
